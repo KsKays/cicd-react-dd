@@ -10,7 +10,7 @@ const ServiceSection = () => {
       whileInView={{ opacity: 1, y: 0 }} // เมื่ออยู่ใน Viewport ให้ปรากฏ
       transition={{ duration: 0.8, ease: "easeInOut" }} // เพิ่มความสมูธ
     >
-      <div className="section-container px-6 py-24">
+      <div className="section-container py-24">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12">
           {/* คอลัมน์ซ้าย: หัวข้อและคำอธิบาย */}
           <div className="md:w-1/3 text-center md:text-left">
